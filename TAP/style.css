@@ -1,0 +1,76 @@
+body {
+     
+        background: linear-gradient(90deg, rgba(25, 18, 230, 1) 0%, rgba(81, 99, 203, 1) 27%, rgba(87, 199, 133, 1) 50%, rgba(21, 230, 219, 1) 72%, rgba(192, 19, 212, 1) 91%, rgba(237, 221, 83, 1) 100%);
+}
+form{
+    width: 50%;
+}
+fieldset{
+    border-radius:20px;
+}
+input :required {
+color: bisque;
+border: solid 1px goldenrod;
+}
+input :optional{
+color: black;
+border: solid 1px violet;
+
+}
+input[type="radio"]:checked{
+height: 15px;
+width: 15px;
+}
+input[type="radio"]+label{
+    color: rgb(246, 42, 6);  
+ }
+ input[type="submit"]{
+    border-radius: 10px;
+    border: solid black 1px;
+ }
+ select{
+    background-color: chartreuse;
+    border: radius 1px; 
+    cursor: pointer;
+ }
+input:focus{
+    background-color: magenta;
+
+}
+input[type="text"]+span{
+    display: none;
+}
+input[type="text"]:hover+span {
+    display: inline;
+}
+
+input[type="email"]:valid+img#valid {
+    display: inline !important;
+    height: 20px;
+    width: 20px;
+}
+
+input[type="email"]:valid+img#valid+img#invalid {
+    display: none !important;
+}
+
+input[type="email"]:invalid+img#valid {
+    display: none !important;
+}
+
+input[type="email"]:invalid+img#valid+img#invalid {
+    display: inline !important;
+    height: 20px;
+    width: 20px; }
+
+
+h1 #head{
+    background: #22C1C3;
+        background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+h1 #head {
+    background: transparent
+}
+input:hover{
+    background-color: rgb(17, 121, 225);
+}
